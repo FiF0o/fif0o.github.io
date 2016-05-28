@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="179b0a71-c6be-4e61-ab76-767539d5bc61" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/ie.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/print.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/screen.css.map" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/BGC-original.jpg" afterPath="$PROJECT_DIR$/assets/img/BGC-1320px.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/BP-original.jpg" afterPath="$PROJECT_DIR$/assets/img/BP-1320px.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/BTviewerapp-original.jpg" afterPath="$PROJECT_DIR$/assets/img/BTviewerapp-1320px.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/MHR-original.jpg" afterPath="$PROJECT_DIR$/assets/img/MHR-1320px.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/RBS6Nations2-original.jpg" afterPath="$PROJECT_DIR$/assets/img/RBS6Nations2-1320px.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/RLink2-original.jpg" afterPath="$PROJECT_DIR$/assets/img/RLink2-1320px.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/cutecircuit-original.jpg" afterPath="$PROJECT_DIR$/assets/img/cutecircuit-1320px.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/medicalprofiler-original.jpg" afterPath="$PROJECT_DIR$/assets/img/medicalprofiler-1320px.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/uxbackground-original.jpg" afterPath="$PROJECT_DIR$/assets/img/uxbackground-1320px.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icons.eot" afterPath="$PROJECT_DIR$/assets/fonts/icons.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icons.woff" afterPath="$PROJECT_DIR$/assets/fonts/icons.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css.map" afterPath="$PROJECT_DIR$/assets/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icons.ttf" afterPath="$PROJECT_DIR$/assets/fonts/icons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="fif0o.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,16 +64,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logo.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/img/icons/logo.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,20 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="-0.35462555">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -96,6 +106,7 @@
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/test" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -163,39 +174,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fif0o.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fif0o.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fif0o.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fif0o.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,8 +193,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/assets/img/icons" />
     </key>
@@ -332,14 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/icons/logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.3333333">
@@ -348,7 +320,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -356,9 +328,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.35462555">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
