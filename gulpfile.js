@@ -36,6 +36,7 @@
       async = require('async'),
       consolidate = require('gulp-consolidate'),
       babel = require('gulp-babel'),
+      spawn = require('gulp-spawn'),
 
 // npm bugs when trying to install it, needs to rename the package .gulp-util.DELETE to gulp-util - NEEDS sudo command for install
 // same with loadash.assign plugin
@@ -398,7 +399,6 @@ gulp.task('logo', function() {
       .pipe(gulp.dest(images.out));
     log('-> icons done! <-');
   });
-
 
   // Update Favicon on build folder
   gulp.task('favicon', function () {
