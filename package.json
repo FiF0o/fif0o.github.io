@@ -5,6 +5,7 @@
   "main": "build/index.html",
   "homepage": "https://fif0o.github.io/fif0o.github.io/build",
   "scripts": {
+    "start": "rm -rf ./build && ./node_modules/.bin/gulp start",
     "deploy": "npm run build && ./node_modules/.bin/gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf ./build && ./node_modules/.bin/gulp build && cp -r ./source/pdf build/",

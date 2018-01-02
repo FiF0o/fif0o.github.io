@@ -496,7 +496,7 @@ gulp.task('logo', function() {
   // Build Task
 // TODO include sassLint task
 // TODO Once Browserify is hooked up remove vendors tasks which will be obsolete
-  gulp.task('build', ['clean', 'jade', 'compass', 'babel', 'iconfont', 'favicon', 'build:images']);
+  gulp.task('build', ['clean', 'jade', 'compass', 'babel', 'iconfont', 'favicon', 'build:images', 'pdf']);
 
   // Watch Task
   // Task dependancy, watch is run when browsersync is finished ['browsersync']
@@ -520,6 +520,10 @@ gulp.task('logo', function() {
   // Compile and Watch task
   gulp.task('start', ['build', 'watch']);
 
+gulp.task('pdf', () => {
+  return gulp.src('./source/pdf/**/*.pdf')
+    .pipe(gulp.dest('./build'))
+})
 
 //TODO Update Help section with new tasks
   // Help Task
