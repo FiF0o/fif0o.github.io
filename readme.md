@@ -2,6 +2,10 @@
 
 # elva
 
+
+- font: https://www.1001fonts.com/wong-sepele-personal-use-font.html
+- svg converter: https://convertio.co/
+
 * Status: ✅ Active
 * Contributors: [@scott](https://toot.scott.ee/@scott)
 * Description: A multilingual, clean, green 11ty starter theme.
@@ -117,7 +121,7 @@ To use [Front Matter CMS](https://frontmatter.codes/), install [VSCodium](https:
 
 ### Optional
 
-- [ ] Set your preferred image sizes and formats in the image shortcode `/elva/shortcodes/image.js`
+- [ ] Set your preferred image sizes and formats in the image shortcode `/src/shortcodes/image.js`
 - [ ] If you add more front matter, you may wish to edit `.frontmatter/frontmatter.json` to add [Front Matter CMS](https://frontmatter.codes/) support
 - [ ] You many not need [Alpine.js](https://alpinejs.dev/) which can be removed from `/theme/js/bundle.njk`
 - [ ] Use [Eleventy Fetch](https://www.11ty.dev/docs/plugins/fetch/) to grab some API data

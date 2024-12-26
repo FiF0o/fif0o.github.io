@@ -4,7 +4,7 @@
         {%- set t = ((seo.title or title) + ' ' + settings.meta.separator + ' ' + ('meta.title' | translate) if (seo.title or title) else ('meta.title' | translate)) %}
         {%- set d = (seo.description | striptags | truncate(140, false, '…')) or ('meta.description' | translate) %}
         {%- set u = page.url | htmlBaseUrl(settings.url) %}
-        {%- set i = (thumbnail or settings.meta.opengraphDefaultImage) | htmlBaseUrl(settings.url) %}
+        {# {%- set i = (thumbnail or settings.meta.opengraphDefaultImage) | htmlBaseUrl(settings.url) %} #}
         {%- set ia = thumbnailDescription or ('meta.opengraphDefaultAlt' | translate) %}
 
         <!-- charset / viewport -->
@@ -50,7 +50,7 @@
         <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="{{ settings.themeColorDark }}">
         {% if settings.isStaging or noIndex %}<meta name="robots" content="noindex, nofollow">{% endif %}
         {% if settings.author.fediverseProfile %}<link href="{{ settings.author.fediverseProfile }}" rel="me">{% endif %}
-        {% if settings.author.fediverseUsername %}<meta name="fediverse:creator" content="{{ settings.author.fediverseUsername }}">{% endif %}
+        {# {% if settings.author.fediverseUsername %}<meta name="fediverse:creator" content="{{ settings.author.fediverseUsername }}">{% endif %} #}
 
         <!-- set theme before page renders to stop fouc -->
         <script>document.documentElement.dataset.theme = localStorage.getItem('theme') === null ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' : localStorage.getItem('theme')</script>

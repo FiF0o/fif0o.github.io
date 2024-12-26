@@ -5,10 +5,10 @@
         "shorthand": "EN",
         "locale": "en-gb"
     },
-    "sv": {
+    "fr": {
         "dir": "ltr",
-        "label": "Svenska",
-        "shorthand": "SE",
-        "locale": "sv-se"
+        "label": "Francais",
+        "shorthand": "FR",
+        "locale": "fr-FR"
     }
 }

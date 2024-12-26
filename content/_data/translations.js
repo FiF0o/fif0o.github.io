@@ -1,11 +1,12 @@
 export default {
     en: {
+        year: "The year is:",
         meta: {
-            title: 'elva',
+            title: 'Jon Lazarini portfolio',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
-            description: 'A multilingual, clean, green, 11ty starter theme',
-            opengraphDefaultAlt: 'An English description of the default opengraph image'
+            description: 'Jon Lazarini portfolio showcasing projects',
+            opengraphDefaultAlt: 'Jon Lazarini portfolio showcasing projects'
         },
         header: {
             skipLink: 'Skip to content',
@@ -23,28 +24,29 @@ export default {
         dark: 'Dark',
         light: 'Light'
     },
-    sv: {
+    fr: {
+        year: "Année:",
         meta: {
-            title: 'elva',
+            title: 'Portofolio de Jon Lazarini',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
-            description: 'A multilingual, clean, green, 11ty starter theme',
-            opengraphDefaultAlt: 'A Swedish description of the default opengraph image'
+            description: 'Portfolio de Jon Lazarini présentant divers projets',
+            opengraphDefaultAlt: 'Portfolio de Jon Lazarini présentant divers projets'
         },
         header: {
-            skipLink: 'Hoppa till innehållet',
-            home: 'Hem'
+            skipLink: 'Passer au contenu',
+            home: 'Accueil'
         },
         readingTime: {
-            underMinute: 'Mindre än 1 minut att läsa',
-            minute: '1 minut till läsaren',
-            other: '{{ minutes }} minuter att läsa'
+            underMinute: 'Moins d\'une minute à lire',
+            minute: '1 minute de lecture',
+            other: '{{ minutes }} minutes de lecture'
         },
         feeds: {
-            info: 'Detta är ett RSS feed. Kopiera och klistra in webbadressen i din flödesläsare. Besök <a href="https://aboutfeeds.com">About Feeds</a> för att lära dig mer om RSS.',
-            title: 'Nyligen publicerad'
+            info: 'Ceci est un flux RSS. Copiez et collez l\'URL dans votre lecteur de flux. Consultez <a href="https://aboutfeeds.com">About Feeds</a> À propos des flux</a> pour en savoir plus sur le RSS.',
+            title: 'Récemment publié'
         },
-        dark: 'Mörk',
-        light: 'Ljus'
+        dark: 'Sombre',
+        light: 'Clair'
     }
 }

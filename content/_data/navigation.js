@@ -5,26 +5,18 @@ export default {
 			url: '/about/'
 		},
 		{
-			text: 'Documentation',
+			text: 'Projects',
 			url: '/'
-		},
-		{
-			text: 'GitHub',
-			url: 'https://github.com/scottsweb/elva'
 		}
     ],
-    sv: [
+    fr: [
 		{
-			text: 'Om',
-			url: '/om/'
+			text: 'Accueil',
+			url: '/about/'
 		},
 		{
-			text: 'Dokumentation',
+			text: 'Projets',
 			url: '/'
-		},
-		{
-			text: 'GitHub',
-			url: 'https://github.com/scottsweb/elva'
 		}
     ]
 };

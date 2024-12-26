@@ -3,16 +3,14 @@
 	"themeColorDark": "#2e3440",
 	"cdn": false,
 	"author": {
-		"name": "Scott Evans",
-		"email": "noreply@example.com",
-		"url": "https://scott.ee",
-		"location": "Stockholm, Sweden",
-		"fediverseProfile": "https://toot.scott.ee/@scott",
-		"fediverseUsername": "@scott@toot.scott.ee"
+		"name": "Jon Lazarini",
+		"email": "jonathan.lazarini@wanadoo.fr",
+		"url": "https://fif0o.github.io/",
+		"location": "London, UK",
+		"fediverseProfile": "https://github.com/fif0o"
 	},
 	"meta": {
-		"separator": "•",
-		"opengraphDefaultImage": "/assets/img/opengraph-default.png"
+		"separator": "•"
 	},
 	"seo": {
 		"defaultChangeFrequency": "monthly",

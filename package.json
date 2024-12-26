@@ -1,5 +1,5 @@
 {
-  "name": "elva",
+  "name": "jon site with elva template",
   "version": "3.0.4",
   "description": "A multilingual, clean, green, 11ty starter theme",
   "main": "index.js",
@@ -7,18 +7,17 @@
   "scripts": {
     "build": "rimraf dist && npx @11ty/eleventy",
     "build:prod": "export NODE_ENV=production && rimraf dist && npx @11ty/eleventy",
+    "server": "python3 -m http.server -d dist 8000",
     "build:stage": "export NODE_ENV=staging && rimraf dist && npx @11ty/eleventy",
     "dev": "npx @11ty/eleventy --watch --serve --incremental",
     "clean": "rimraf dist",
     "debug": "DEBUG=Eleventy* npm run dev",
+    "deploy": "./node_modules/.bin/vercel --prod",
     "benchmark": "DEBUG=Eleventy:Benchmark* npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release-patch": "npm version patch --force && npm publish",
     "release-minor": "npm version minor --force && npm publish",
     "release-major": "npm version major --force && npm publish"
-  },
-  "bugs": {
-    "url": "https://github.com/scottsweb/elva/issues"
   },
   "keywords": [
     "eleventy",
@@ -32,11 +31,6 @@
     "CSS",
     "alpine"
   ],
-  "author": {
-    "name": "Scott Evans",
-    "url": "https://scott.ee",
-    "email": "git@scott.ee"
-  },
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "3.0.0",
@@ -61,5 +55,8 @@
     "node-html-to-image": "^5.0.0",
     "rimraf": "^6.0.1",
     "terser": "^5.36.0"
+  },
+  "devDependencies": {
+    "vercel": "^42.1.1"
   }
 }

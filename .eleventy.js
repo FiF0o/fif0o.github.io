@@ -19,31 +19,31 @@ import slugify from '@sindresorhus/slugify';
 // Local ---------------------------------------------
 
 // Plugins
-import pluginDrafts from './elva/plugins/drafts.js';
-import pluginDescriptions from './elva/plugins/seodescriptions.js';
+import pluginDrafts from './src/plugins/drafts.js';
+import pluginDescriptions from './src/plugins/seodescriptions.js';
 
 // Plugin Configs
-import pluginEmbedEverythingConfig from './elva/config/embeds.js';
+import pluginEmbedEverythingConfig from './src/config/embeds.js';
 
 // Transforms
-import transformCSS from './elva/transforms/css.js';
-import transformHTML from './elva/transforms/html.js';
-import transformJS from './elva/transforms/js.js';
+import transformCSS from './src/transforms/css.js';
+import transformHTML from './src/transforms/html.js';
+import transformJS from './src/transforms/js.js';
 
 // Shortcodes
-import image from './elva/shortcodes/image.js';
+import image from './src/shortcodes/image.js';
 
 // Filters
-import base64 from './elva/filters/base64.js';
-import cdnify from './elva/filters/cdnify.js';
-import { formatDate } from './elva/filters/dates.js';
-import languageFilter from './elva/filters/language.js';
-import mimetype from './elva/filters/mimetype.js';
-import random from './elva/filters/random.js';
-import readingTime from './elva/filters/readingtime.js';
-import sort from './elva/filters/sort.js';
-import translate from './elva/filters/translate.js';
-import where from './elva/filters/where.js';
+import base64 from './src/filters/base64.js';
+import cdnify from './src/filters/cdnify.js';
+import { formatDate } from './src/filters/dates.js';
+import languageFilter from './src/filters/language.js';
+import mimetype from './src/filters/mimetype.js';
+import random from './src/filters/random.js';
+import readingTime from './src/filters/readingtime.js';
+import sort from './src/filters/sort.js';
+import translate from './src/filters/translate.js';
+import where from './src/filters/where.js';
 
 // Languages
 // to-do: This is a temp fix based on this bug: https://github.com/11ty/eleventy-dependency-tree-esm/issues/2
@@ -68,7 +68,7 @@ export default async function(eleventyConfig) {
 
     eleventyConfig.addWatchTarget('./content/assets');
     eleventyConfig.addWatchTarget('./theme/**/*.{css,js}');
-    eleventyConfig.addWatchTarget('./elva/templates/*', { resetConfig: true });
+    eleventyConfig.addWatchTarget('./src/templates/*', { resetConfig: true });
 
     // Layouts ----------------------------------------
 
@@ -82,18 +82,18 @@ export default async function(eleventyConfig) {
 
     const cssTemplate = fs.readFileSync(path.resolve('theme/css/', 'bundle.njk'), 'utf-8');
     const jsTemplate = fs.readFileSync(path.resolve('theme/js/', 'bundle.njk'), 'utf-8');
-    const robotsTemplate = fs.readFileSync(path.resolve('elva/templates/', 'robots.njk'), 'utf-8');
-    const sitemapTemplate = fs.readFileSync(path.resolve('elva/templates/', 'sitemap.njk'), 'utf-8');
+    const robotsTemplate = fs.readFileSync(path.resolve('src/templates/', 'robots.njk'), 'utf-8');
+    const sitemapTemplate = fs.readFileSync(path.resolve('src/templates/', 'sitemap.njk'), 'utf-8');
 
     eleventyConfig.addTemplate('css-bundle.njk', cssTemplate);
     eleventyConfig.addTemplate('js-bundle.njk', jsTemplate);
     eleventyConfig.addTemplate('robots.njk', robotsTemplate);
     eleventyConfig.addTemplate('sitemap.njk', sitemapTemplate);
 
-    const feedTemplate = fs.readFileSync(path.resolve('elva/templates/', 'feed.njk'), 'utf-8');
-    const feedXSLTemplate = fs.readFileSync(path.resolve('elva/templates/', 'feed.xsl.njk'), 'utf-8');
-    const feedJSONTemplate = fs.readFileSync(path.resolve('elva/templates/', 'feed.json.njk'), 'utf-8');
-    const manifestTemplate = fs.readFileSync(path.resolve('elva/templates/', 'manifest.njk'), 'utf-8');
+    const feedTemplate = fs.readFileSync(path.resolve('src/templates/', 'feed.njk'), 'utf-8');
+    const feedXSLTemplate = fs.readFileSync(path.resolve('src/templates/', 'feed.xsl.njk'), 'utf-8');
+    const feedJSONTemplate = fs.readFileSync(path.resolve('src/templates/', 'feed.json.njk'), 'utf-8');
+    const manifestTemplate = fs.readFileSync(path.resolve('src/templates/', 'manifest.njk'), 'utf-8');
 
     for (let [key, locale] of Object.entries(locales)) {
         eleventyConfig.addTemplate(key + '-feed.njk', feedTemplate, { lang: key });

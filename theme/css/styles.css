@@ -147,7 +147,7 @@ h6,
 p,
 li,
 blockquote:not([class]) {
-  max-width: 65ch;
+  max-width: 90ch;
 }
 
 p:has(> picture) {
